@@ -1,0 +1,16 @@
+[project]
+name = "image-quality-assessment"
+version = "0.1.0"
+requires-python = ">=3.6,<3.9"
+dependencies = [
+    "tensorflow==2.2.0",
+    "numpy>=1.16.4,<1.19",
+    "protobuf>=3.9,<3.20",
+    "h5py==2.10.0",
+    "pillow",
+    "scikit-learn",
+    "nose",
+    "onnx<1.14",
+    "onnxruntime<1.15",
+    "tf2onnx",
+]
